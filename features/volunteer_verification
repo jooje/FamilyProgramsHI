@@ -2,3 +2,5 @@ Feature: Verify volunteer information
 As a coordinator
 So that I can keep track of who signs up for what event and what position
 I want to store volunteer information for an event
+
+Scenarios
