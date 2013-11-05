@@ -3,4 +3,7 @@ As an operations director
 So that I can maintain/protect submitted information from the volunteer
 I want to protect volunteer information
 
-Scenarios!
+Scenario: maintain information
+  Given volunteer information is in database
+  And credentials are valid/confirmed from coordinator
+  Then I should be able to monitor information from volunteer
