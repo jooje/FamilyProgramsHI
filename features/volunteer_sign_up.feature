@@ -1,7 +1,7 @@
 Feature: Sign up for event
-As a volunteer
-So that I can help with a particular event
-I want to sign up for any given event
+  As a volunteer
+  So that I can help with a particular event
+  I want to sign up for any given event
 
 Scenario: sign up for event
   When I go to the sign up page
