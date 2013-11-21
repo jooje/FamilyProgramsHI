@@ -2,6 +2,16 @@ Given(/^that I am on the home page$/) do
   visit 'index.html'
 end
 
+When(/^I go to the sign up page$/) do
+  visit 'sign_up.html'
+end
+
+And(/^I select "(.*?)"$/) do |arg1|
+  select arg1
+end
+
+
+
 Then(/^I should see "(.*?)"$/) do |content|
   page.should have_content content
 end
