@@ -30,8 +30,8 @@ Given(/^the following contact exists:$/) do |table|
   Table.create(table)
 end
 
-When(/^I go to the Users Page$/) do
-  visit 'users.html'
+When(/^I go to the Confirm Page$/) do
+  visit 'confirm_page.html'
 end
 
 When(/^I fill in "(.*?)" with "(.*?)"$/) do |name, value|

@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body><h1>Confirm Page</h1>
+<p>Confirm Page</p>
+<form id='add' action="" method="get">
+<li>Tupac Shakur, tupacshakur@gmail.com, Holiday Party, Helper</li>
+    <input type="submit" value="Confirm">
+</form>
+</body>
+</html>
